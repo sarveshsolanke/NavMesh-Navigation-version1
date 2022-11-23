@@ -1,0 +1,653 @@
+/target:library
+/out:Temp/Unity.InputSystem.dll
+/nowarn:0169
+/nowarn:0649
+/refout:Temp/Unity.InputSystem.dll.ref
+/unsafe
+/deterministic
+/debug:portable
+/optimize+
+/nostdlib+
+/preferreduilang:en-US
+/langversion:8.0
+/reference:Library/ScriptAssemblies/UnityEditor.UI.dll
+/reference:Library/ScriptAssemblies/UnityEngine.UI.dll
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
+/reference:E:/navmesh1/Library/PackageCache/com.unity.collab-proxy@1.15.18/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll
+/reference:E:/navmesh1/Library/PackageCache/com.unity.collab-proxy@1.15.18/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll
+/reference:E:/navmesh1/Library/PackageCache/com.unity.collab-proxy@1.15.18/Lib/Editor/PlasticSCM/log4netPlastic.dll
+/reference:E:/navmesh1/Library/PackageCache/com.unity.collab-proxy@1.15.18/Lib/Editor/PlasticSCM/unityplastic.dll
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEditor.GraphViewModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEditor.PackageManagerUIModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIServiceModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEditor.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.GIModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsNativeModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Numerics.Vectors.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ComponentModel.Composition.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Core.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Data.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Drawing.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.IO.Compression.FileSystem.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Net.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Numerics.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Runtime.Serialization.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ServiceModel.Web.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Transactions.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Web.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Windows.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Linq.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/Microsoft.Win32.Primitives.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.AppContext.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Concurrent.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.NonGeneric.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Specialized.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.Primitives.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.TypeConverter.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Console.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Data.Common.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Contracts.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Debug.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Process.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.StackTrace.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tools.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TraceSource.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tracing.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Drawing.Primitives.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Dynamic.Runtime.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Calendars.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Extensions.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.ZipFile.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Primitives.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Watcher.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.IsolatedStorage.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.MemoryMappedFiles.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Pipes.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Expressions.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Parallel.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Queryable.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Http.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NameResolution.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NetworkInformation.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Ping.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Primitives.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Requests.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Security.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Sockets.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebHeaderCollection.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.Client.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ObjectModel.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Extensions.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Primitives.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Reader.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.ResourceManager.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Writer.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Extensions.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Handles.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Numerics.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Json.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Xml.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Claims.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Csp.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Encoding.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Primitives.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Principal.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.SecureString.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.Extensions.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.RegularExpressions.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Overlapped.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.Parallel.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Thread.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.ThreadPool.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Timer.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ValueTuple.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.ReaderWriter.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XDocument.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlDocument.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlSerializer.dll"
+/reference:"E:/dev game/2020.3.32f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll"
+/define:CSHARP_7_3_OR_NEWER
+/define:CSHARP_7_OR_LATER
+/define:DEBUG
+/define:ENABLE_AR
+/define:ENABLE_AUDIO
+/define:ENABLE_BURST_AOT
+/define:ENABLE_CACHING
+/define:ENABLE_CLOTH
+/define:ENABLE_CLOUD_LICENSE
+/define:ENABLE_CLOUD_SERVICES
+/define:ENABLE_CLOUD_SERVICES_ADS
+/define:ENABLE_CLOUD_SERVICES_ANALYTICS
+/define:ENABLE_CLOUD_SERVICES_BUILD
+/define:ENABLE_CLOUD_SERVICES_COLLAB
+/define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+/define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+/define:ENABLE_CLOUD_SERVICES_PURCHASING
+/define:ENABLE_CLOUD_SERVICES_UNET
+/define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+/define:ENABLE_CLUSTERINPUT
+/define:ENABLE_CLUSTER_SYNC
+/define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+/define:ENABLE_CUSTOM_RENDER_TEXTURE
+/define:ENABLE_DIRECTOR
+/define:ENABLE_DIRECTOR_AUDIO
+/define:ENABLE_DIRECTOR_TEXTURE
+/define:ENABLE_EDITOR_HUB_LICENSE
+/define:ENABLE_EVENT_QUEUE
+/define:ENABLE_INPUT_SYSTEM
+/define:ENABLE_LOCALIZATION
+/define:ENABLE_LZMA
+/define:ENABLE_MANAGED_ANIMATION_JOBS
+/define:ENABLE_MANAGED_AUDIO_JOBS
+/define:ENABLE_MANAGED_JOBS
+/define:ENABLE_MANAGED_TRANSFORM_JOBS
+/define:ENABLE_MANAGED_UNITYTLS
+/define:ENABLE_MICROPHONE
+/define:ENABLE_MONO
+/define:ENABLE_MONO_BDWGC
+/define:ENABLE_MOVIES
+/define:ENABLE_MULTIPLE_DISPLAYS
+/define:ENABLE_NETWORK
+/define:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+/define:ENABLE_PHYSICS
+/define:ENABLE_PROFILER
+/define:ENABLE_RUNTIME_GI
+/define:ENABLE_SCRIPTING_GC_WBARRIERS
+/define:ENABLE_SPRITES
+/define:ENABLE_TERRAIN
+/define:ENABLE_TEXTURE_STREAMING
+/define:ENABLE_TILEMAP
+/define:ENABLE_TIMELINE
+/define:ENABLE_UNET
+/define:ENABLE_UNITYEVENTS
+/define:ENABLE_UNITYWEBREQUEST
+/define:ENABLE_UNITY_COLLECTIONS_CHECKS
+/define:ENABLE_VIDEO
+/define:ENABLE_VIRTUALTEXTURING
+/define:ENABLE_VR
+/define:ENABLE_WEBCAM
+/define:ENABLE_WEBSOCKET_CLIENT
+/define:ENABLE_WEBSOCKET_HOST
+/define:ENABLE_WWW
+/define:GFXDEVICE_WAITFOREVENT_MESSAGEPUMP
+/define:INCLUDE_DYNAMIC_GI
+/define:NET_STANDARD_2_0
+/define:PLATFORM_ARCH_64
+/define:PLATFORM_STANDALONE
+/define:PLATFORM_STANDALONE_WIN
+/define:PLATFORM_SUPPORTS_MONO
+/define:PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP
+/define:RENDER_SOFTWARE_CURSOR
+/define:SCENE_TEMPLATE_MODULE
+/define:TRACE
+/define:UNITY_2017_1_OR_NEWER
+/define:UNITY_2017_2_OR_NEWER
+/define:UNITY_2017_3_OR_NEWER
+/define:UNITY_2017_4_OR_NEWER
+/define:UNITY_2018_1_OR_NEWER
+/define:UNITY_2018_2_OR_NEWER
+/define:UNITY_2018_3_OR_NEWER
+/define:UNITY_2018_4_OR_NEWER
+/define:UNITY_2019_1_OR_NEWER
+/define:UNITY_2019_2_OR_NEWER
+/define:UNITY_2019_3_OR_NEWER
+/define:UNITY_2019_4_OR_NEWER
+/define:UNITY_2020
+/define:UNITY_2020_1_OR_NEWER
+/define:UNITY_2020_2_OR_NEWER
+/define:UNITY_2020_3
+/define:UNITY_2020_3_32
+/define:UNITY_2020_3_OR_NEWER
+/define:UNITY_5_3_OR_NEWER
+/define:UNITY_5_4_OR_NEWER
+/define:UNITY_5_5_OR_NEWER
+/define:UNITY_5_6_OR_NEWER
+/define:UNITY_64
+/define:UNITY_ASSERTIONS
+/define:UNITY_EDITOR
+/define:UNITY_EDITOR_64
+/define:UNITY_EDITOR_WIN
+/define:UNITY_INCLUDE_TESTS
+/define:UNITY_INPUT_SYSTEM_ENABLE_PHYSICS
+/define:UNITY_INPUT_SYSTEM_ENABLE_PHYSICS2D
+/define:UNITY_INPUT_SYSTEM_ENABLE_UI
+/define:UNITY_INPUT_SYSTEM_ENABLE_VR
+/define:UNITY_STANDALONE
+/define:UNITY_STANDALONE_WIN
+/define:UNITY_TEAM_LICENSE
+/define:UNITY_XR_AVAILABLE
+/define:USE_SEARCH_ENGINE_API
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\Composites\AxisComposite.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\Composites\ButtonWithOneModifier.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\Composites\ButtonWithTwoModifiers.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\Composites\OneModifierComposite.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\Composites\TwoModifiersComposite.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\Composites\Vector2Composite.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\Composites\Vector3Composite.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\IInputActionCollection.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\IInputInteraction.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\InputAction.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\InputActionAsset.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\InputActionChange.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\InputActionMap.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\InputActionPhase.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\InputActionProperty.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\InputActionRebindingExtensions.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\InputActionReference.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\InputActionSetupExtensions.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\InputActionState.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\InputActionTrace.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\InputActionType.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\InputBinding.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\InputBindingComposite.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\InputBindingCompositeContext.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\InputBindingResolver.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\InputControlScheme.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\InputInteractionContext.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\Interactions\HoldInteraction.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\Interactions\MultiTapInteraction.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\Interactions\PressInteraction.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\Interactions\SlowTapInteraction.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\Interactions\TapInteraction.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\AssemblyInfo.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\AnyKeyControl.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\AxisControl.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\ButtonControl.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\CommonUsages.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\DiscreteButtonControl.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\DoubleControl.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\DpadControl.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\InputControl.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\InputControlAttribute.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\InputControlExtensions.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\InputControlLayout.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\InputControlLayoutAttribute.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\InputControlLayoutChange.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\InputControlList.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\InputControlPath.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\InputProcessor.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\IntegerControl.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\KeyControl.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\Processors\AxisDeadzoneProcessor.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\Processors\ClampProcessor.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\Processors\CompensateDirectionProcessor.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\Processors\CompensateRotationProcessor.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\Processors\EditorWindowSpaceProcessor.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\Processors\InvertProcessor.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\Processors\InvertVector2Processor.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\Processors\InvertVector3Processor.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\Processors\NormalizeProcessor.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\Processors\NormalizeVector2Processor.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\Processors\NormalizeVector3Processor.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\Processors\ScaleProcessor.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\Processors\ScaleVector2Processor.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\Processors\ScaleVector3Processor.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\Processors\StickDeadzoneProcessor.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\QuaternionControl.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\StickControl.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\TouchControl.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\TouchPhaseControl.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\TouchPressControl.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\Vector2Control.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\Vector3Control.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Commands\DisableDeviceCommand.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Commands\EnableDeviceCommand.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Commands\EnableIMECompositionCommand.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Commands\IInputDeviceCommandInfo.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Commands\InitiateUserAccountPairingCommand.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Commands\InputDeviceCommand.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Commands\QueryCanRunInBackground.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Commands\QueryDimensionsCommand.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Commands\QueryEditorWindowCoordinatesCommand.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Commands\QueryEnabledStateCommand.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Commands\QueryKeyNameCommand.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Commands\QueryKeyboardLayoutCommand.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Commands\QueryPairedUserAccountCommand.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Commands\QuerySamplingFrequencyCommand.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Commands\QueryUserIdCommand.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Commands\RequestResetCommand.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Commands\RequestSyncCommand.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Commands\SetIMECursorPositionCommand.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Commands\SetSamplingFrequencyCommand.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Commands\WarpMousePositionCommand.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Gamepad.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Haptics\DualMotorRumble.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Haptics\DualMotorRumbleCommand.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Haptics\IDualMotorRumble.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Haptics\IHaptics.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\ICustomDeviceReset.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\IEventMerger.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\IEventPreProcessor.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\IInputUpdateCallbackReceiver.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\ITextInputReceiver.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\InputDevice.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\InputDeviceBuilder.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\InputDeviceChange.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\InputDeviceDescription.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\InputDeviceMatcher.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Joystick.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Keyboard.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Mouse.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Pen.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Pointer.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Precompiled\FastKeyboard.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Precompiled\FastMouse.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Precompiled\FastMouse.partial.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Precompiled\FastTouchscreen.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Remote\InputRemoting.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Remote\RemoteInputPlayerConnection.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Sensor.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Touchscreen.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\TrackedDevice.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\AssetEditor\InputActionAssetManager.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\AssetEditor\InputActionEditorToolbar.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\AssetEditor\InputActionEditorWindow.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\AssetEditor\InputActionPropertiesView.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\AssetEditor\InputActionTreeView.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\AssetEditor\InputActionTreeViewItems.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\AssetEditor\InputBindingPropertiesView.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\AssetEditor\NameAndParameterListView.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\AssetEditor\ParameterListView.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\AssetEditor\PropertiesViewBase.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\AssetImporter\InputActionAssetEditor.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\AssetImporter\InputActionCodeGenerator.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\AssetImporter\InputActionImporter.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\AssetImporter\InputActionImporterEditor.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\BuildPipeline\LinkFileGenerator.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\ControlPicker\IInputControlPickerLayout.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\ControlPicker\InputControlDropdownItem.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\ControlPicker\InputControlPathEditor.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\ControlPicker\InputControlPicker.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\ControlPicker\InputControlPickerDropdown.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\ControlPicker\InputControlPickerState.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\ControlPicker\Layouts\DefaultInputControlPickerLayout.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\ControlPicker\Layouts\TouchscreenControlPickerLayout.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\Debugger\InputActionDebuggerWindow.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\Debugger\InputDebuggerWindow.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\Debugger\InputDeviceDebuggerWindow.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\DeviceSimulator\InputSystemPlugin.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\DownloadableSample.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\EditorInputControlLayoutCache.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\InputDiagnostics.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\InputLayoutCodeGenerator.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\InputParameterEditor.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\Internal\AdvancedDropdown\AdvancedDropdown.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\Internal\AdvancedDropdown\AdvancedDropdownDataSource.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\Internal\AdvancedDropdown\AdvancedDropdownGUI.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\Internal\AdvancedDropdown\AdvancedDropdownItem.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\Internal\AdvancedDropdown\AdvancedDropdownState.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\Internal\AdvancedDropdown\AdvancedDropdownWindow.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\Internal\AdvancedDropdown\CallbackDataSource.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\Internal\AdvancedDropdown\MultiLevelDataSource.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\Internal\EditorHelpers.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\Internal\GUIHelpers.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\Internal\InputActionSerializationHelpers.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\Internal\InputControlTreeView.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\Internal\InputEventTreeView.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\Internal\InputStateWindow.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\Internal\SerializedPropertyHelpers.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\Internal\TreeViewHelpers.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\PropertyDrawers\InputActionDrawer.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\PropertyDrawers\InputActionDrawerBase.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\PropertyDrawers\InputActionMapDrawer.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\PropertyDrawers\InputActionPropertyDrawer.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\PropertyDrawers\InputControlPathDrawer.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\Settings\EditorPlayerSettingHelpers.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\Settings\InputEditorUserSettings.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\Settings\InputSettingsBuildProvider.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\Settings\InputSettingsProvider.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Events\ActionEvent.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Events\DeltaStateEvent.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Events\DeviceConfigurationEvent.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Events\DeviceRemoveEvent.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Events\DeviceResetEvent.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Events\IInputEventTypeInfo.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Events\IMECompositionEvent.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Events\InputEvent.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Events\InputEventBuffer.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Events\InputEventListener.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Events\InputEventPtr.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Events\InputEventStream.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Events\InputEventTrace.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Events\StateEvent.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Events\TextEvent.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\IInputDiagnostics.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\IInputRuntime.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\InputAnalytics.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\InputExtensions.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\InputFeatureNames.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\InputManager.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\InputMetrics.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\InputSettings.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\InputSystem.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\InputSystemObject.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\InputUpdateType.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\NativeInputRuntime.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\Android\AndroidAxis.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\Android\AndroidGameController.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\Android\AndroidKeyCode.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\Android\AndroidSensors.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\Android\AndroidSupport.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\DualShock\DualShockGamepad.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\DualShock\DualShockGamepadHID.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\DualShock\DualShockSupport.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\DualShock\FastDualShock4GamepadHID.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\DualShock\IDualShockHaptics.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\EnhancedTouch\EnhancedTouchSupport.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\EnhancedTouch\Finger.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\EnhancedTouch\Touch.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\EnhancedTouch\TouchHistory.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\EnhancedTouch\TouchSimulation.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\HID\HID.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\HID\HIDDescriptorWindow.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\HID\HIDParser.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\HID\HIDSupport.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\Linux\LinuxSupport.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\Linux\SDLDeviceBuilder.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\OnScreen\OnScreenButton.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\OnScreen\OnScreenControl.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\OnScreen\OnScreenStick.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\OnScreen\OnScreenSupport.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\PlayerInput\DefaultInputActions.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\PlayerInput\InputValue.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\PlayerInput\PlayerInput.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\PlayerInput\PlayerInputEditor.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\PlayerInput\PlayerInputManager.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\PlayerInput\PlayerInputManagerEditor.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\PlayerInput\PlayerJoinBehavior.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\PlayerInput\PlayerNotifications.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\Steam\IStreamControllerAPI.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\Steam\SteamController.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\Steam\SteamControllerType.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\Steam\SteamHandle.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\Steam\SteamIGAConverter.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\Steam\SteamSupport.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\Switch\SwitchProControllerHID.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\Switch\SwitchSupportHID.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\UI\BaseInputOverride.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\UI\ExtendedAxisEventData.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\UI\ExtendedPointerEventData.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\UI\InputSystemUIInputModule.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\UI\InputSystemUIInputModuleEditor.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\UI\MultiplayerEventSystem.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\UI\NavigationModel.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\UI\PointerModel.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\UI\StandaloneInputModuleEditor.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\UI\TrackedDeviceRaycaster.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\UI\UISupport.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\UI\VirtualMouseInput.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\UnityRemote\UnityRemoteSupport.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\Users\InputUser.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\Users\InputUserAccountHandle.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\Users\InputUserChange.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\Users\InputUserPairingOptions.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\Users\InputUserSettings.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\WebGL\WebGLGamepad.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\WebGL\WebGLJoystick.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\WebGL\WebGLSupport.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\XInput\IXboxOneRumble.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\XInput\XInputController.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\XInput\XInputControllerWindows.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\XInput\XInputSupport.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\XInput\XboxGamepadMacOS.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\XR\Controls\PoseControl.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\XR\Devices\GoogleVR.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\XR\Devices\Oculus.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\XR\Devices\OpenVR.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\XR\Devices\WindowsMR.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\XR\GenericXRDevice.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\XR\Haptics\BufferedRumble.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\XR\Haptics\GetCurrentHapticStateCommand.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\XR\Haptics\GetHapticCapabilitiesCommand.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\XR\Haptics\SendBufferedHapticsCommand.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\XR\Haptics\SendHapticImpulseCommand.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\XR\TrackedPoseDriver.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\XR\XRLayoutBuilder.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\XR\XRSupport.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\iOS\IOSGameController.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\iOS\InputSettingsiOS.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\iOS\InputSettingsiOSProvider.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\iOS\iOSPostProcessBuild.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\iOS\iOSStepCounter.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\iOS\iOSSupport.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\State\IInputStateCallbackReceiver.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\State\IInputStateChangeMonitor.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\State\IInputStateTypeInfo.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\State\InputState.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\State\InputStateBlock.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\State\InputStateBuffers.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\State\InputStateHistory.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\ArrayHelpers.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\CSharpCodeHelpers.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\CallbackArray.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\Comparers.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\DelegateHelpers.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\DisplayStringFormatAttribute.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\DynamicBitfield.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\ExceptionHelpers.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\FourCC.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\InlinedArray.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\InternedString.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\JsonParser.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\MemoryHelpers.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\MiscHelpers.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\NameAndParameters.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\NamedValue.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\NumberHelpers.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\Observables\ForDeviceEventObservable.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\Observables\Observable.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\Observables\Observer.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\Observables\SelectManyObservable.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\Observables\SelectObservable.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\Observables\TakeNObservable.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\Observables\WhereObservable.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\OneOrMore.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\PrimitiveValue.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\ReadOnlyArray.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\SavedState.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\StringHelpers.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\Substring.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\TypeHelpers.cs
+E:\navmesh1\Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\TypeTable.cs
