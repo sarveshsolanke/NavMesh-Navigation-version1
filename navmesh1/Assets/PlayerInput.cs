@@ -7,6 +7,7 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(NavMeshAgent))]
 public class PlayerInput : MonoBehaviour
 {
+    public Text GpsStatus;
 #if ENABLE_INPUT_SYSTEM
     [SerializeField]
     private InputActionAsset InputActions;
@@ -113,12 +114,7 @@ public class PlayerInput : MonoBehaviour
         {
             MovementVector += Vector3.back;
         }
-        if (Input.GetMouseButtonDown(0))
-        {
-
-          
-
-        }
+       
         MovementVector.Normalize();
         if (MovementVector != LastDirection)
         {
