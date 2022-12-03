@@ -7,7 +7,6 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(NavMeshAgent))]
 public class PlayerInput : MonoBehaviour
 {
-    public Text GpsStatus;
 #if ENABLE_INPUT_SYSTEM
     [SerializeField]
     private InputActionAsset InputActions;
@@ -41,7 +40,7 @@ public class PlayerInput : MonoBehaviour
         PlayerActionMap.Enable();
         InputActions.Enable();
 #endif
-      
+
 
     }
 
@@ -114,7 +113,12 @@ public class PlayerInput : MonoBehaviour
         {
             MovementVector += Vector3.back;
         }
-       
+        if (Input.GetMouseButtonDown(0))
+        {
+
+
+
+        }
         MovementVector.Normalize();
         if (MovementVector != LastDirection)
         {
@@ -123,8 +127,8 @@ public class PlayerInput : MonoBehaviour
         LastDirection = MovementVector;
 
         TargetDirection = Vector3.Lerp(
-            TargetDirection, 
-            MovementVector, 
+            TargetDirection,
+            MovementVector,
             Mathf.Clamp01(LerpTime * TargetLerpSpeed * (1 - Smoothing))
         );
 
@@ -133,8 +137,8 @@ public class PlayerInput : MonoBehaviour
         if (lookDirection != Vector3.zero)
         {
             Agent.transform.rotation = Quaternion.Lerp(
-                transform.rotation, 
-                Quaternion.LookRotation(lookDirection), 
+                transform.rotation,
+                Quaternion.LookRotation(lookDirection),
                 Mathf.Clamp01(LerpTime * TargetLerpSpeed * (1 - Smoothing))
             );
         }
